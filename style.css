@@ -1,0 +1,117 @@
+html, body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 0;
+    margin-left: 0%;
+}
+#menu{
+    float: right;
+    margin: 0%;
+    list-style: none;
+}
+li:hover{
+    background-color: blue;
+}
+li{
+    float: left;
+    padding: 10 20 10 20;
+
+}
+#imagem_fundo{
+    background: url("congresso-saude-e-bem-estar.png");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+#titulo{
+    color: black;
+    padding-top: 5%;
+}
+#subtitulo {
+    color: azure;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#acao{
+    color: azure;
+    border: 2px azure solid;
+    padding: 10px 10px 10px 10px;
+}
+.icon{
+    width: 100px;
+} 
+#Cuidados{
+    background-color: #f7f7f7;
+    padding: 20px;
+    float: left;
+}
+#Evitar{
+    background-color: #f7f7f7;
+    padding: 20px;
+    float: left;
+}
+#Dimensões{
+    color: black;
+}
+#Vantagens{
+    padding: 20px;
+    float: left;
+    background-color: #f7f7f7;
+}
+#Desvantagens{
+    padding: 20px;
+    float: left;
+    background-color: #f7f7f7;
+}
+#Sobre{
+    padding: 10px;
+    float: left;
+    background-color: rgb(169, 176, 194);
+}
+#Fatores{
+    padding: 20px;
+    float: left;
+   
+}
+.Roh{
+    width: 10%;
+}
+.Coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+   width: 40%;
+}
+.tres{
+    width: 20%;
+}
+
+#secao{
+    float: left;
+    position: relative;
+    width: 40%;
+}
+
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+footer{
+    background-color: blue;
+    
+}
